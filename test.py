@@ -6,5 +6,5 @@ ct.set_model_file('model.crf.tagger')
 text=""
 while text!="exit":
 	text=input("Text : ")
-	post=word_tokenize(text,'mm')
+	post=word_tokenize(text,'newmm')
 	print(ct.tag_sents([post]))
